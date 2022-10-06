@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: Deployment-template-Monokle
+  name: Deployment-template-Monokle
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: Deployment-template-Monokle
+  template:
+    metadata:
+      labels:
+        app: Deployment-template-Monokle
+    spec:
+      containers:
+        - image: nignx:image
+          name: Deployment-template-Monokle
