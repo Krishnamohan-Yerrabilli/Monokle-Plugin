@@ -1,0 +1,16 @@
+
+{
+	"name": "Templates plugin",
+	"description": "Custom templates plugin",
+	"version": "1.0.0",
+	"author": "Krishnamohan Yerrabilli",
+	"repository": "https://github.com/Krishnamohan-Yerrabilli/Monokle-Plugin.git",
+	"monoklePlugin": {
+		"id": "com.github.krishnamohan-yerrabilli.plugin.templates",
+		"helpUrl": "https://github.com/Krishnamohan-Yerrabilli/Monokle-Plugin.git",
+		"modules": [{
+			"type": "template",
+			"path": "Deployment-template-Monokle"
+		}]
+	}
+}
